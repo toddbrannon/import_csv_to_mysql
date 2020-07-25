@@ -4,7 +4,7 @@ python3 - m venv env
 ### command to start the pipenv shell: ###
 pipenv shell
 
-### command to exit the shell
+### command to exit the shell: ###
 exit
 
 ### pandas API reference:  ### 
