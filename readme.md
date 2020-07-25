@@ -1,5 +1,11 @@
-### command to start the virtual environment: python3 - m venv env:  ###
+### command to start the virtual environment: ### 
+python3 - m venv env
+
+### command to start the pipenv shell: ###
 pipenv shell
+
+### command to exit the shell
+exit
 
 ### pandas API reference:  ### 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html
