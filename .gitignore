@@ -4,3 +4,4 @@ import.py
 Pipfile
 .vscode/
 env/
+import_df copy.py
