@@ -17,7 +17,7 @@ Python script sweeps folder for csv files to create df and then imports to mysql
 Note the MySQL connection code refers to masked credentials in the create_engine call. Replace the values for the 'user', 'pw', and 'db' with your own values directly into the import_df.py file, or create a databaseconfig.py file with your MySQL credentials and import the config file into the import_df.py file to mask your credentials (the import_df.py file already contains ``` import databaseconfig as cfg ``` to accomplish this).
 
 ### Database Connection ###
-a
+
 ```
 con = sq.create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
                         .format(user=cfg.mysql["user"],
