@@ -1,7 +1,8 @@
-# command to start the virtual environment: python3 - m venv env
+### command to start the virtual environment: python3 - m venv env:  ###
 pipenv shell
 
-# pandas API reference: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html
+### pandas API reference:  ### 
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html
 
 # import_csv_to_mysql
 Python script sweeps folder for csv files to create df and then imports to mysql db
