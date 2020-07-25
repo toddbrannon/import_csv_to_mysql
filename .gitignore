@@ -1,0 +1,6 @@
+*config.py
+df2mysql.py
+import.py
+Pipfile
+.vscode/
+env/
